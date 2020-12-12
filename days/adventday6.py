@@ -36,9 +36,9 @@ def count_consensus_yes_per_group(group: List) -> int:
 
 
 def main():
-    part_1 = sum([count_yes_per_group(x) for x in read_input("adventday6input")])
+    part_1 = sum([count_yes_per_group(x) for x in read_input("./inputs/adventday6input")])
     print(f"The answer to part 1 is: {part_1}")
-    part_2 = sum([count_consensus_yes_per_group(x) for x in read_input("adventday6input")])
+    part_2 = sum([count_consensus_yes_per_group(x) for x in read_input("./inputs/adventday6input")])
     print(f"The answer to part 2 is: {part_2}")
 
 

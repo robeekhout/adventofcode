@@ -28,7 +28,7 @@ def find_seat(seat: str) -> int:
 
 
 def main():
-    all_seat_ids = sorted([find_seat(x) for x in read_input("adventday5input")])
+    all_seat_ids = sorted([find_seat(x) for x in read_input("./inputs/adventday5input")])
     part_1 = max(all_seat_ids)
     print(f"The answer to part 1 is: {part_1}")
     part_2 = sum(range(all_seat_ids[0], all_seat_ids[-1] + 1)) - sum(all_seat_ids)
