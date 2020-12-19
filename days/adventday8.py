@@ -32,6 +32,7 @@ def find_loop_acc(bootcode: List) -> int:
             current_instruction += 1
             continue
         print("No loop found")
+        return
 
 
 def main():
