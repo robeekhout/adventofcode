@@ -21,11 +21,8 @@ def chain_the_adapters(adapterlist):
 
 
 def main():
-    print(parse_input("../inputs/adventday10input"))
     part_1 = chain_the_adapters(parse_input("../inputs/adventday10input"))
     print(f"The answer to part 1 is: {part_1}")
-    # part_2 = find_encryption_weakness(parse_input("../inputs/adventday9input"), part_1)
-    # print(f"The answer to part 2 is: {part_2}")
 
 
 if __name__ == "__main__":
